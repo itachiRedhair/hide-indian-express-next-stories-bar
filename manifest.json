@@ -1,0 +1,12 @@
+{
+  "name": "Hide Indian Express next stories bar.",
+  "version": "1.0",
+  "description": "Hides Indian Express next stories bar.",
+  "content_scripts": [
+    {
+      "matches": ["http://*.indianexpress.com/*", "https://*.indianexpress.com/*"],
+      "js": ["/content_script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
